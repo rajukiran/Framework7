@@ -4,6 +4,7 @@ var myApp = new Framework7({
 });
 
 
+
 // If we need to use custom DOM library, let's save it to $$ variable:
 var $$ = Dom7;
 
@@ -17,6 +18,8 @@ var mainView = myApp.addView('.view-main', {
 $$(document).on('deviceready', function() {
     console.log("Device is ready!");
 });
+
+
 
 
 // Now we need to run the code that will be executed only for About page.
